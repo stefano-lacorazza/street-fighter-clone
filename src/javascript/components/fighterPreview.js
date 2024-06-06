@@ -16,7 +16,6 @@ export function createFighterPreview(fighter, position) {
         className: `fighter-preview___root ${positionClassName} vs-preview`
     });
 
-        console.log(fighter);
         // Create a new element for the fighter's portrait and set its source
         const imgElement = createElement({ tagName: 'img' });
         imgElement.src = `resources/${fighter._id}Portrait.png`;

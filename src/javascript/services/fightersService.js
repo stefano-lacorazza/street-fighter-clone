@@ -39,7 +39,7 @@ class FighterService {
         // let fighters = this.getFighters()
         try {
             const fighter = await callApi(`details/fighter/${id}.json`);
-            return {fighter};
+            return fighter;
         } catch (error) {
             console.error('Error fetching fighter details:', error);
             throw error; // Throw the error after logging it

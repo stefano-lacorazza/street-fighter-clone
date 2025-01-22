@@ -1,29 +1,14 @@
-# README #
+# Fighting game
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## 🏃‍♂️ Simple start
 
-### What is this repository for? ###
+1. **`npm run setup`** at the root
+2. **`npm run dev`** at the root
+3. open **`http://localhost:7600/`**
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+OR
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. **`npm i`** at the root
+2. **`npx simple-git-hooks`** at the root
+3. **`npm run dev`** at the root
+4. open **`http://localhost:7600/`**
